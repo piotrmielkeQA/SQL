@@ -1,0 +1,9 @@
+Słowo kluczowe RIGHT JOIN zwraca wszystkie rekordy z prawej tabeli oraz pasujące rekordy z lewej tabeli. 
+
+
+Przykład: 
+
+SELECT column_name
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;

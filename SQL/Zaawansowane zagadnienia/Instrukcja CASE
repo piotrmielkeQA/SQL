@@ -1,0 +1,13 @@
+
+Instrukcja CASE pozwala nam w naszym zapytaniu dodać warunki.
+
+
+Przykłady: 
+
+SELECT OrderID, Quantity,
+CASE
+WHEN Quantity > 30 THEN "WIĘKSZA NIŻ 30"
+WHEN Quantity = 30 THEN "RÓWNE 30"
+ELSE "MNIEJSZA OD 30"
+END AS Info
+FROM order_details;

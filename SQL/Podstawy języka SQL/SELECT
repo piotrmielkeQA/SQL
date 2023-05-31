@@ -1,0 +1,13 @@
+SELECT 
+Instrukcja SELECT służy do wybierania danych z bazdy danych. 
+
+Przykład: 
+SELECT column1, column2,...
+FROM table_name;
+
+
+Przykłady: 
+SELECT * FROM categories; 
+
+SELECT CategoryName FROM categories; 
+

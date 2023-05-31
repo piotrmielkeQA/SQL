@@ -1,0 +1,20 @@
+
+
+Słowo kluczowe ORDER BY służy do sortowania zestawu wyników w kolejności rosnącej lub malejącej. 
+
+
+Przykład: 
+SELECT column1, column2, 
+FROM table_name
+ORDER BY column1, column2, ASC | DESC
+
+
+Przykłady: 
+
+
+SELECT * FROM 'products' 
+WHERE CategoryID = 2 ORDER BY Price DESC;
+
+
+SELECT CustomerName, Country FROM 'customers' 
+ORDER BY Country ASC 

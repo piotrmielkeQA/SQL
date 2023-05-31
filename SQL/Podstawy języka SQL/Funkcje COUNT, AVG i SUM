@@ -1,0 +1,29 @@
+
+Funkcja COUNT() zwraca liczbę wierszy spełniającyh określone kryterium 
+
+Przykład:
+SELECT COUNT (column name)
+FROM table_name
+WHERE condition;
+
+Przykłady: 
+
+SELECT COUNT(SupplierID) FROM 'products' 
+WHERE SupplierID = 1;
+
+
+
+Funkcja AVG() zwraca średnią wartość kolumny numerycznej
+
+Przykład:
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition;
+
+
+Funkcja SUM() zwraca całkowitę sumę kolumny numerycznej
+
+Przykład: 
+SELECT SUM(column_name)
+FROM table_name
+WHERE condition;

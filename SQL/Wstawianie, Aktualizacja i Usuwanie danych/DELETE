@@ -1,0 +1,6 @@
+
+Instrukcja DELETE służy do usuwania istniejących rekordów w tabeli
+
+Przykład: 
+
+DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';

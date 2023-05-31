@@ -1,0 +1,16 @@
+
+
+Aliasy służą do nadawania tebali lub kolumnie nazwy tymczasowej. 
+Alias istnieje tylko na czas trwania tego zapytania. 
+Tworzy się za pomocą AS.
+
+
+Przykład: 
+SELECT column_name AS alias_name
+FROM table_name;
+
+
+Przykłady: 
+
+SELECT CustomerName AS Person1, ContactName AS Person2
+FROM 'customers';

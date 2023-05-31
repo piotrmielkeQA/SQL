@@ -1,0 +1,13 @@
+
+Aby zakomentować pojedyną linię używamy znaku "-"
+
+Przykład: 
+
+--SELECT * FROM 'orders';
+
+Aby zakomentować więcej linii używamy znaków /* */
+
+Przykład:
+
+/* SELECT OrderID FROM 'orders'; */
+

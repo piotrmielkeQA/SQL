@@ -1,0 +1,17 @@
+WHERE 
+Klauzula WHERE służy do filtrowania rekordów. Wyodrębienie tylko tych rekordów, które spełniają określony warunek.
+
+Przykład: 
+
+SELECT column1, column2, 
+FROM table_name
+WHERE condition; 
+
+
+Przykłady: 
+
+1. Z kolumny "products" znajdz tylko takie produkty gdzie cena będzie mniejsza lub równa 30 
+
+SELECT * FROM `products` WHERE Price <=30;
+
+

@@ -1,0 +1,22 @@
+
+Funkcje MIN i MAX
+
+1. Funkcja MIN() zwraca najmniejszą wartość z wybranej kolumny
+2. Funkcja MAX() zwraca największą wartość z wybranej kolumny
+
+
+Przykład: 
+SELECT MIN (column_name)
+FROM table_name
+WHERE codition;
+
+
+Przykłady: 
+
+1. Znajdź maksymalną cenę z kolumny Price
+
+SELECT MAX(Price) FROM 'products';
+
+2. Znajdź minimalną cenę z kolumny Price
+
+SELECT MIN(Price) FROM 'products';

@@ -1,0 +1,26 @@
+
+
+Operatory AND, OR, NOT
+
+Klauzula WHERE może być łączona z operatorami AND, OR, NOT. 
+Operatory AND i OR służą do filtrowania rekordów na podstawie więcej niż 
+jednego warunku
+
+- Operator AND wyświetla rekord, jeśli wszystkie warunki oddzielone operatorem AND mają wartość PRAWDA
+- Operator OR wyświetla rekord, jeśli którykolwiek z warunków oddzielonych OR jest PRAWDZIWY
+- Operator NOT wyświetla rekord, jeśli warunek (warunki) NIE JEST PRAWDZIWY 
+
+
+Pzykład: 
+SELECT column1, column2
+FROM table_name
+WHERE condition1 AND condition2 and condition3,
+
+
+Przykłady: 
+
+SELECT * FROM `suppliers` WHERE Country = "USA" AND City = "Boston";
+
+
+SELECT * FROM 'suppliiers' 
+WHERE NOT Country = "USA";

@@ -1,0 +1,67 @@
+
+Pytanie 1:
+Którego ze słów kluczowych języka SQL należy użyć, aby wyeliminować duplikaty?
+
+DISTINCT
+
+Pytanie 2:
+Które polecenie SQL zamieni w tabeli tab w kolumnie kol wartość Ania na Zosia?
+
+UPDATE tab SET kol='Zosia' WHERE kol='Ania;
+
+Pytanie 3:
+Polecenie w języku SQL ALTER TABLE USA... ma za zadanie
+
+Modyfikację tabeli USA
+
+Pytanie 4:
+Dana jest tabela o nazwie przedmioty z polami: ocena i uczenID. Aby policzyć średnią ocen ucznia o ID równym 7, należy posłużyć się zapytaniem
+
+SELECT AVG(ocena) FROM przedmioty 
+WHERE uczenID=7;
+
+Pytanie 5:
+Zapytanie z klauzulą JOIN stosuje się, aby
+
+Uzyskać wyniki z dwóch tabel pozostających ze sobą w relacji
+
+
+Pytanie 6:
+Aby usunąć tabelę należy zastosować kwerendę
+
+DROP TABLE nazwa tabeli;
+
+Pytanie 7:
+Aby zmienić maksymalną długość pola imie w tabeli klienci na 30 znaków, należy użyć w języku SQL następującego kodu
+
+
+ALTER TABLE klienci MODIFY COLUMN imie VARCHAR(30);
+
+Pytanie 8:
+Którą klauzulę powinno się zastosować w poleceniu CREATE TABLE języka SQL, aby dane pole rekordu nie było puste?
+
+
+NOT NULL 
+
+Pytanie 9:
+Za pomocą którego polecenia SQL można usunąć z tabeli artykuly wiersze zawierające słowo "sto" znajdujące się w dowolnym miejscu pola tresc?
+
+
+DELETE FROM artykuly WHERE tresc LIKE "%sto%";
+
+
+Pytanie 10:
+Wynikiem uruchomienia zapytania SQL jest
+
+SELECT count(*) FROM Uczniowie WHERE srednia = 5;
+
+Liczba uczniów, których średnia ocen wynosi 5
+
+
+
+
+
+
+
+
+

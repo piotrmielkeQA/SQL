@@ -1,0 +1,9 @@
+
+Operator UNION służy do łączenia zestawu wyników dwóch lub więcej instrukcji SELECT
+
+
+Przykład: 
+
+SELECT column_name FROM table1
+UNION 
+SELECT column_name FROM table2;

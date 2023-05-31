@@ -1,0 +1,10 @@
+
+Instrukcja GROUP BY w języku SQL określa, że instrukcja SQL SELECT dzieli wiersze wyników na grupy na podstawie ich wartości w jednej lub kilku kolumnach.
+
+Instrukcja jest często używana z funkcjami agregującymi COUNT, MAX, MIN, SUM, AVG.
+
+
+Przykład:
+SELECT COUNT (CustomerID), Country
+FROM Customers
+GROUP BY Country; 

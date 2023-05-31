@@ -1,0 +1,8 @@
+
+Instrukcja CREATE DATABASE służy do tworzenia nowej bazy danych SQL.
+
+
+Przykład: 
+
+CREATE DATABASE databasename;
+

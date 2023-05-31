@@ -1,0 +1,9 @@
+
+Instrukcja INSERT INTO służy do wstawiania nowych rekordów do tabeli
+
+
+Przykład: 
+
+INSERT INTO Customers (CustomerName, City, Country)
+VALUES ('Cardinal', 'Stavanger', 'Norway')
+

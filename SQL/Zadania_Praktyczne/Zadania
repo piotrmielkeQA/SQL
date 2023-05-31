@@ -1,0 +1,35 @@
+Zadanie:
+
+1. Dla tabeli customers stworzyć zapytanie, które wyświetli wszystkie osoby mieszkające w Berlinie lub we Francji.
+
+SELECT CustomerName, ContactName FROM customers WHERE City = "Berlin" OR "France";
+
+
+2. Dla tabeli orders stworzyć zapytanie, które wyświetli tylko 2 pierwsze rekordy należące do przedziału dat od 1996-07-15 do  1996-07-30 posortowane rosnąco po kolumnie ShipperID oraz malejąco po kolumnie OrderID 
+
+SELECT * FROM `orders` WHERE OrderDate BETWEEN "1996-07-15" AND "1996-07-30" ORDER BY ShipperID ASC, OrderID DESC LIMIT 3;
+
+
+3. Wstawić nowy rekord do tabeli products o nazwie Krzesło, cenie wynoszącej 25, CategoryID równym 1 oraz SupplierID równym 1
+
+INSERT INTO products (ProductName, Price, CategoryID, SupplierID)
+VALUES ('Krzesło', '25', '1', '1');
+
+4. Zaktualizować w tabeli shippers kolumnę Phone o wartość Brak dla wszystkich rekordów, które nie mają uzupełnionej wartości Phone (jest równa NULL)
+
+UPDATE shippers SET Phone = "Brak" WHERE Phone IS NULL;
+
+5. Usunąć rekordy z tabeli shippers , których ShipperID mieści się w przedziale od 4 do 5
+
+DELETE FROM shippers WHERE ShipperID BETWEEN 4 AND 5;
+
+6. Dla tabeli suppliers przygotuj zestawienie, które pogrupuje łączną ilość osób należących dla konkretnego Country.
+
+SELECT Country, COUNT(ContactName) AS Ilosc FROM suppliers GROUP BY Country HAVING Country = "USA";
+
+
+7. Wykonaj zapytanie, które połączy dwie tabele: products oraz order_details i przedstawi zwrócone wartości Product name oraz Quantity.
+
+SELECT products.ProductName, order_details.Quantity
+FROM products
+INNER JOIN order_details ON products.ProductID=order_details.ProductID;

@@ -1,0 +1,15 @@
+
+Klauzula HAVING została dodana do SQL, ponieważ słowo kluczowe WHERE nie może być używane z funkcjami agregującymi. 
+
+
+Przykład: 
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
+
+
+
+SELECT Country, COUNT(CustomerName) AS Ilosc 
+FROM customers GROUP BY Country
+HAVING COUNT(CustomerName) > 2;

@@ -1,0 +1,19 @@
+
+Operator IS NULL
+Operator IS NOT NULL 
+
+
+Przykład: 
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;
+
+
+
+Przykłady: 
+
+SELECT * FROM 'customers' 
+WHERE City IS NULL; 
+
+SELECT * FROM 'customers' 
+WHERE City IS NOT NULL; 

@@ -1,0 +1,12 @@
+SELETC DISTINCT 
+Instrukcja SELECT DISTINCT służy do zwracania tylko odrębnych (różnych) wartości. 
+
+Przykład: 
+SELECT DISTINCT column1, column2, 
+FROM table_name
+
+
+
+Przykłady: 
+
+SELECT DISTINCT Country FROM suppliers;

@@ -1,0 +1,33 @@
+
+Operator LIKE jest używany w klauzuli WHERE do wyszukiwania określonego wzroca w kolumnie
+
+Przykład:
+
+SELECT column1, column2
+FROM table_name
+WHERE column LIKE pattern; 
+
+
+Przykłady: 
+
+SELECT * FROM 'customers' 
+WHERE ContactName Like '%n'
+
+
+SELECT * FROM 'customers' 
+WHERE ContactName Like 'p%n'
+
+
+Operator BETWEEN wybiera wartośći z danego zakresu. Wartości mogą być liczbami, tekstem lub datami. 
+
+Przykład: 
+SELECT column_name
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2
+
+
+Przykłady: 
+
+SELECT * FROM 'orders' 
+WHERE OderDate BETWEEN '1996-07-01' AND '1996-07-10';
+

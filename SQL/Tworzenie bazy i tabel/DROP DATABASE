@@ -1,0 +1,7 @@
+
+Instrukcja DROP DATABASE służy do usuwania istnięjącej bazy danych SQL.
+
+Przykład: 
+
+DROP DATABASE databasename;
+

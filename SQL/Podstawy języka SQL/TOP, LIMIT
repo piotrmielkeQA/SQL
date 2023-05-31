@@ -1,0 +1,8 @@
+
+Klauzula SELECT TOP służy do określenia liczby rekordów do zwrócenia
+
+
+Przykład: 
+SELECT TOP number column_name
+FROM table_name
+WHERE condition

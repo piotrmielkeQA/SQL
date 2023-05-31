@@ -1,0 +1,8 @@
+
+Instrukcja UPDATE służy do modyfikowania istniejących rekordów w tabeli
+
+Przykład:
+
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City='Frankfurt'
+WHERE CustomerID =1;
