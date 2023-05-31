@@ -1,5 +1,12 @@
 ## Introduction
-This project includes basic knowledge of SQL and basic queries. 
+This project includes:
+- basic knowledge of SQL 
+- basic queries
+- sample questions
+- sample tasks 
+
+Project created on base course from Udemy: https://www.udemy.com/course/kurs-sql-od-podstaw/
+
 Basic queries can be executed on database from site: 
 [w3schools](https://www.w3schools.com/sql/)
 
